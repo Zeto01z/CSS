@@ -1,0 +1,39 @@
+*{
+    font-family: Arial;
+}
+
+/*Aturan Terakhir*/
+i{
+    color: blueviolet;
+}
+
+i{
+    color: blue; /*yang diambil ini*/
+}
+
+/*Specific*/
+
+b{
+    color: pink; /*level 1*/
+}
+
+p b{
+    color: aquamarine !important;  /*level 3*/ /* b nya diambil yg ini karena terdapat !Important pada kode tersebut*/
+}
+
+p b{
+    color: blue; /*level 2*/
+}
+
+p b{
+    font-size: 150%; /* karena p b lebih spesifik daripada line 37*/
+}
+
+/*Studi Kasus*/
+p{
+    font-size: 100%;
+}
+
+p#pendahuluan{
+    font-size: 75%; /*lebih Spesifik*/
+}

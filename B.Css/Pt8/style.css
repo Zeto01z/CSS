@@ -1,0 +1,40 @@
+/*color*/
+
+/*foreground color*/
+
+/*color name*/
+
+h1{
+    color: blue;
+}
+
+/*hex code*/
+
+h2{
+    color: #0844ff;
+}
+
+/*rgb value*/
+
+p{
+    color: rgb(255,0,0);
+}
+
+/*background color*/
+
+/*hex code*/
+body{
+    background-color: #665544;
+}
+
+h1{
+    background-color: cornflowerblue;
+}
+
+h2{
+    background-color: darkgreen;
+}
+
+p{
+    background-color: rgb(166, 166, 75);
+}
